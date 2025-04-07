@@ -1,11 +1,5 @@
-import streamlit as st
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
-from langchain_core.output_parsers import StrOutputParser
-from langchain_huggingface import HuggingFaceEndpoint
-import cx_Oracle
-import pandas as pd
 
+<<<<<<< HEAD
 # Set up API token and model
 MISTRAL_API_TOKEN = "D4w5a6QJxuRdQFKKgEq1KHukbaMBWo7w"
 from langchain_mistralai import ChatMistralAI
@@ -138,3 +132,5 @@ if st.button("Generate SQL Query"):
             st.dataframe(result)  # Display the DataFrame without needing columns argument
         else:
             st.error("No result returned from the query.")
+=======
+>>>>>>> ec1d8ba957eeb92c24949a266c2f10362a89b232
