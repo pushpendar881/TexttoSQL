@@ -7,7 +7,7 @@ import cx_Oracle
 import pandas as pd
 
 # Set up API token and model
-MISTRAL_API_TOKEN = "xqMCVQSjhr4cnjhrZF9WmChu9qXLlT6N"
+MISTRAL_API_TOKEN = "D4w5a6QJxuRdQFKKgEq1KHukbaMBWo7w"
 from langchain_mistralai import ChatMistralAI
 model = ChatMistralAI(model="mistral-large-latest", api_key=MISTRAL_API_TOKEN)
 
