@@ -43,7 +43,7 @@ DB_CONFIG = {
 
 # Mistral API key from environment variables
 # MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "")
-MISTRAL_API_KEY ="jER8T2JNdNRr7x3PO8QOXnKcym4fBfJj"
+MISTRAL_API_KEY ="API_KEY"
 
 # File paths
 SCHEMA_FILE = "table_details.json"
