@@ -1,6 +1,10 @@
 streamlit
-langchain-core
-langchain-huggingface
-langchain-mistralai
 cx_Oracle
-pandas
+python-dotenv
+sentence-transformers
+faiss-cpu  # or faiss-gpu if using GPU
+langchain
+langchain-community
+langchain-mistralai
+pyngrok
+numpy
