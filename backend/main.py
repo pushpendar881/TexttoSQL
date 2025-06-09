@@ -35,7 +35,7 @@ DB_CONFIG = {
 }
 
 # API keys from environment variables
-MISTRAL_API_KEY = "yrtVdh8NwcaZVGRuMVhFTnGONVN9zDTP"
+MISTRAL_API_KEY = "API_KEY"
 
 # File paths
 SCHEMA_FILE = "table_details.json"
