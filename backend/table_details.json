@@ -1,0 +1,1456 @@
+{
+    "A": [
+        {
+            "column_name": "U_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "U_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "U_DID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        }
+    ],
+    "A1": [
+        {
+            "column_name": "VAR_PROP_PROPNO",
+            "data_type": "VARCHAR2",
+            "data_length": 4000,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_REC_RECNO",
+            "data_type": "VARCHAR2",
+            "data_length": 4000,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_REC_AMOUNT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        }
+    ],
+    "A123": [
+        {
+            "column_name": "U_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "U_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        }
+    ],
+    "AAKASH_EMPLOYEE": [
+        {
+            "column_name": "EMP_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMP_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 250,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMP_CITY",
+            "data_type": "VARCHAR2",
+            "data_length": 250,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMP_JOINDATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INSBY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INSDATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "AAKASH_EMPLOYEE_B": [
+        {
+            "column_name": "EMP_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "SALARY",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        }
+    ],
+    "AAKASH_EMPLOYEE_COPY": [
+        {
+            "column_name": "EMP_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMP_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 250,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMP_CITY",
+            "data_type": "VARCHAR2",
+            "data_length": 250,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMP_JOINDATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INSBY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INSDATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "AAKASH_PROP_MAS": [
+        {
+            "column_name": "ZONEID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "WARDNO",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PROPERTY_NO",
+            "data_type": "VARCHAR2",
+            "data_length": 15,
+            "nullable": "N"
+        },
+        {
+            "column_name": "OWNER",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "ADDRESS",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CPTAX",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMPTAX",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EDUTAX_",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TREETAX",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "PROPTOTAL",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INSBY",
+            "data_type": "VARCHAR2",
+            "data_length": 15,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INSDATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "GENDER",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "Y"
+        }
+    ],
+    "AAT_TYPE": [
+        {
+            "column_name": "VAR_PROP_PROPNO",
+            "data_type": "VARCHAR2",
+            "data_length": 80,
+            "nullable": "N"
+        },
+        {
+            "column_name": "VAR_PROP_ASSESTYPE",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLNOTICE_SPLTYPE",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "Y"
+        }
+    ],
+    "ABC": [
+        {
+            "column_name": "UID_1",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "USER_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "SAL",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        }
+    ],
+    "ABC_1": [
+        {
+            "column_name": "UID_1",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "USER_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "SAL",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        }
+    ],
+    "ABC_SPLIT": [
+        {
+            "column_name": "NUM_SPLIT_APPID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_APPNO",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_PROPNO",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_OWNNAME",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_ADDRESS",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_SPLIT_WARDID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_SPLIT_ZONEID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_SPLIT_BLOCKID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_SPLIT_USAGETYPE",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_SPLIT_USAGESUBTYPE",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NUM_SPLIT_OLDPTN",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_REASON",
+            "data_type": "VARCHAR2",
+            "data_length": 4000,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_INSBY",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DT_SPLIT_INSDT",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_UPDTBY",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DT_SPLIT_UPDTDATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VAR_SPLIT_FLAG",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        }
+    ],
+    "CUSTOMER": [
+        {
+            "column_name": "CUSTOMER_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CUSTOMER_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CONTACT_PERSON",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMAIL",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "PHONE",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "ADDRESS",
+            "data_type": "VARCHAR2",
+            "data_length": 300,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CITY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "STATE",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "COUNTRY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "POSTAL_CODE",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INDUSTRY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CUSTOMER_TYPE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREDIT_LIMIT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "ACTIVE_FLAG",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "N"
+        },
+        {
+            "column_name": "REGISTRATION_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NOTES",
+            "data_type": "VARCHAR2",
+            "data_length": 1000,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "EMPLOYEE": [
+        {
+            "column_name": "EMP_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "FIRST_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "LAST_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EMAIL",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "HIRE_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "SALARY",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        }
+    ],
+    "EMPLOYEE_DEPARTMENT": [
+        {
+            "column_name": "DEPT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "DEPT_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "N"
+        },
+        {
+            "column_name": "DEPT_LOCATION",
+            "data_type": "VARCHAR2",
+            "data_length": 250,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "MANAGER_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "BUDGET",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "N"
+        }
+    ],
+    "INVENTORY": [
+        {
+            "column_name": "ITEM_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "ITEM_CODE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "ITEM_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CATEGORY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "SUBCATEGORY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UNIT_OF_MEASURE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "COST_PRICE",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "SELLING_PRICE",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CURRENT_STOCK",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "REORDER_LEVEL",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "MAX_STOCK_LEVEL",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "LOCATION",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "SUPPLIER_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DESCRIPTION",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "MANUFACTURE_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EXPIRY_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "IS_ACTIVE",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "INVOICE": [
+        {
+            "column_name": "INVOICE_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "INVOICE_NUMBER",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CUSTOMER_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PROJECT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "INVOICE_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "DUE_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "AMOUNT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "TAX_AMOUNT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DISCOUNT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TOTAL_AMOUNT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PAYMENT_STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PAYMENT_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "PAYMENT_METHOD",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NOTES",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        }
+    ],
+    "PROJECT": [
+        {
+            "column_name": "PROJECT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PROJECT_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PROJECT_CODE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "DESCRIPTION",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "START_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "END_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "BUDGET",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CLIENT_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "PRIORITY",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DEPT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "PROJECT_MANAGER_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        }
+    ],
+    "PROJECT_ASSIGNMENT": [
+        {
+            "column_name": "ASSIGNMENT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "PROJECT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "EMP_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "ROLE",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "ASSIGNMENT_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "END_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "HOURS_ALLOCATED",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        }
+    ],
+    "SKILLS_CERTIFICATION": [
+        {
+            "column_name": "SKILL_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "SKILL_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "N"
+        },
+        {
+            "column_name": "SKILL_CATEGORY",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "N"
+        },
+        {
+            "column_name": "SKILL_LEVEL",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DESCRIPTION",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "IS_CERTIFICATION",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CERTIFICATION_PROVIDER",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CERTIFICATION_CODE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VALIDITY_PERIOD",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "RENEWAL_REQUIRED",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "REQUIRED_TRAINING_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "MARKET_VALUE",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "PRIORITY_LEVEL",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "TECH_RESOURCE": [
+        {
+            "column_name": "RESOURCE_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "RESOURCE_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "N"
+        },
+        {
+            "column_name": "RESOURCE_CODE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "RESOURCE_TYPE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "DESCRIPTION",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "ACQUISITION_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "EXPIRATION_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VENDOR_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VENDOR_CONTACT",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "VERSION",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "QUANTITY",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "AVAILABLE_QUANTITY",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "COST_PER_UNIT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TOTAL_COST",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "LOCATION",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DEPARTMENT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "N"
+        },
+        {
+            "column_name": "NOTES",
+            "data_type": "VARCHAR2",
+            "data_length": 1000,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "TRAINING": [
+        {
+            "column_name": "TRAINING_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "TRAINING_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "N"
+        },
+        {
+            "column_name": "TRAINING_CODE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "N"
+        },
+        {
+            "column_name": "DESCRIPTION",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TRAINER_NAME",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TRAINER_CONTACT",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TRAINING_TYPE",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "START_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "END_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DURATION",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "LOCATION",
+            "data_type": "VARCHAR2",
+            "data_length": 200,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "MAX_PARTICIPANTS",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CURRENT_PARTICIPANTS",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "COST_PER_PARTICIPANT",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "TOTAL_BUDGET",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "DEPARTMENT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "N"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "UPDATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "UPDATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        }
+    ],
+    "TRAINING_ENROLLMENT": [
+        {
+            "column_name": "ENROLLMENT_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "TRAINING_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "EMPLOYEE_ID",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "N"
+        },
+        {
+            "column_name": "ENROLLMENT_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        },
+        {
+            "column_name": "ATTENDANCE_STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "COMPLETION_STATUS",
+            "data_type": "VARCHAR2",
+            "data_length": 20,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "SCORE",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CERTIFICATION_ISSUED",
+            "data_type": "VARCHAR2",
+            "data_length": 1,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CERTIFICATION_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CERTIFICATION_ID",
+            "data_type": "VARCHAR2",
+            "data_length": 100,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "FEEDBACK",
+            "data_type": "VARCHAR2",
+            "data_length": 1000,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "FEEDBACK_RATING",
+            "data_type": "NUMBER",
+            "data_length": 22,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "NOTES",
+            "data_type": "VARCHAR2",
+            "data_length": 500,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_BY",
+            "data_type": "VARCHAR2",
+            "data_length": 50,
+            "nullable": "Y"
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "data_type": "DATE",
+            "data_length": 7,
+            "nullable": "N"
+        }
+    ]
+}
